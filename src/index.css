@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  background-color: #4A5358;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3vw;
+}
+
+
+/* 
+.navbar {
+  width: 100%;
+
+}
+.logo {
+  width: 12vw;
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+  position:sticky;
+}
+.navbar .menu-icon {
+  display: none;
+  cursor: pointer;
+  color: white;
+  position: fixed;
+}
+.navbar .links {
+  display: flex;
+  gap: 2.2vw;
+  margin-left: auto;
+  margin-right: 2vw;
+  color: white;
+
+}
+.navbar .links.show{
+  display: flex;
+  
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.navbar .home:hover, .services:hover, .resources:hover, .aboutus:hover, .careers:hover, .faqs:hover {
+  background: linear-gradient(to bottom, #ffffff, #36EBCA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+.navbar .links span {
+  font-size: 1vw;
+}
+.navbar .dropDown-contents {
+  display: block;
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 1);
+  line-height: 2vw;
+  position: absolute;
+  margin-top: 0.5vw;
+  padding: 1vw;
+  z-index: 20;
+}
+
+
+.navbar .dropDown-contents li {
+  color: white;
+}
+
+.navbar .dropDown-contents li:hover {
+  background: linear-gradient(to bottom, #ffffff, #36EBCA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.navbar .services, .resources, .aboutus, .careers, .faqs {
+  cursor: pointer;
+}
+.navbar.scrolled {
+  background-color: rgb(219, 127, 127); 
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5vw;
+  z-index: 10;
+  position: fixed;
+}
+
+
+@media (max-width: 768px) {
+  .navbar .menu-icon {
+    display: flex;
+    position: fixed;
+
+  }
+
+  .navbar .links {
+    flex-direction: column;
+    position: static;
+    display: none;
+
+    background-color: black;
+
+
+  }
+
+  .navbar .links.show {
+    display: flex;
+
+  }
+} */
+
+

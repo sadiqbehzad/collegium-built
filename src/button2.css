@@ -1,0 +1,74 @@
+
+.main-bttn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: 10vw;
+    height: 3vw;
+    padding: 0;
+  }
+  
+  .bttn-container {
+    position: relative;
+    width: 7vw;
+    height: 2.5vw;
+    background: linear-gradient(to bottom, #1882FF, #36EBCA);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .bttn {
+    position: block;
+    width: 6.8vw;
+    height: 2.4vw;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #4A5358;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 1vw;
+  
+  }
+  
+  .shadow-container {
+    position: relative;
+    width: 7vw;
+    height: 2.5vw;
+    background: linear-gradient(to bottom, #1882FF, #36EBCA);
+    z-index: -1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8.7vw;
+    margin-top: 0.3vw;
+ 
+  
+    
+  }
+  
+  .shadow {
+    position: block;
+    width: 6.8vw;
+    height: 2.38vw;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: #4A5358;
+    cursor: pointer;
+    z-index: 2;
+
+   
+  }
+  .main-bttn-container:hover .bttn {
+    font-weight: bolder;
+    
+  } 
+  
+  .main-bttn-container:hover .shadow-container {
+    display: flex;
+   
+  }

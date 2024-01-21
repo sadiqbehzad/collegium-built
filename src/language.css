@@ -1,0 +1,45 @@
+.language {
+    position: relative;
+    display: flex;
+}
+.language form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    color: white;
+    margin-left: auto;
+    /* margin-right: 2vw; */
+    font-size: 1vw;
+    padding: 0;
+}
+.select-parent {
+    position: relative;
+    width: 20vw;
+    height: 2.5vw;
+    background: linear-gradient(to bottom, #1882FF, #36EBCA);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -1vw;
+
+}
+.select-parent select {
+    position: block;
+    width: 19.8vw;
+    height: 2.4vw;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #4A5358;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 1vw;
+    border-radius: 0px;
+
+}
+.select-parent option {
+    color: white;
+}
